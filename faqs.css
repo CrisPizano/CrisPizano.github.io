@@ -1,0 +1,132 @@
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height:100%;
+  }
+  
+  
+  body {
+    margin:0;
+    background: black;
+    font-size:1.3em;
+    color:#333;
+    font-family:'Open Sans', sans-serif;
+  }
+  
+  section {
+    float:left;
+    width:100%;
+    background:#fff;
+    position:relative;
+    box-shadow:0 0 5px 0px #333;
+  }
+  
+  header {
+    float:left;
+    width:100%;
+    padding:2em 4em;
+    color:#fff;
+  }
+  
+  header h1 {
+    margin:0;
+  }
+  header h3 {
+    margin:0;
+    color: #56dcee ;
+  }
+  
+  header a:hover {
+    color:#333;
+    opacity:1;
+  }
+  
+  
+  .content {
+    float:left;
+    width:70%;
+    margin:0 15%;
+    padding:2em 0;
+  }
+  
+  h1 {
+    font-family:'Maven Pro', sans-serif;
+    font-weight:300;
+    font-size:2.4em;
+    margin: 0;
+  }
+  
+  h2, h3 {
+    font-family:'Maven Pro', sans-serif;
+    font-weight:300;
+    font-size:1.5em;
+    margin: 0;
+  }
+  
+  pre {
+    background:#ededed;
+    padding:1em;
+  }
+  
+  p {
+    color:#555;
+    font-size:0.9em;
+  }
+  
+  p a {
+    color:#14b5d1;
+    text-decoration:none;
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .image-grid {
+      --num-cols: 2;
+      --row-height: 200px;
+    }
+  }
+
+  @media screen and (max-width: 480) {
+    .image-grid {
+      --num-cols: 2;
+      --row-height: 200px;
+    }
+  }
+    a{
+        color: rgb(255, 255, 255);
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 14px;
+      
+    }
+    .footer {
+        color: white;
+        text-align: center;
+        bottom: auto;
+        font-family: 'Courier New', Courier, monospace;
+        background: black;
+        height: 20vh;
+      }
+
+      @media screen and (max-width: 1200) {
+        .image-grid {
+          --num-cols: 2;
+          --row-height: 200px;
+        }
+      }
+        a{
+            color: rgb(255, 255, 255);
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 14px;
+          
+        }
+        .footer {
+            color: white;
+            text-align: center;
+            bottom: auto;
+            font-family: 'Courier New', Courier, monospace;
+            background: black;
+            height: 20vh;
+          }
