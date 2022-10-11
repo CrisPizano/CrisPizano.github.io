@@ -153,3 +153,9 @@ body{
                 background: black;
                 height: 20vh;
               }
+              a{
+                padding: 10px;
+                text-decoration: none;
+                color: white;
+                font-family: 'Courier New', Courier, monospace;
+            }
