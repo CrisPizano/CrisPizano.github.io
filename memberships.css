@@ -47,6 +47,7 @@
 	transition: all 0.4s;
 	-webkit-transition: all 0.4s;
 	-moz-transition: all 0.4s;
+  
 }
 .ef3 .contentPart p {
 	display: inline-block;
@@ -123,4 +124,10 @@
        --row-height: 200px;
      }
    }
+   a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
    
